@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--People-->
         <scene sceneID="6MM-Hp-8VP">
             <objects>
                 <tableViewController storyboardIdentifier="secondTableST" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fcP-bq-dvQ" customClass="TableVC" customModule="UITAblesApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,7 +31,7 @@
                             <outlet property="delegate" destination="fcP-bq-dvQ" id="QQg-pW-p1L"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" image="person.3.fill" catalog="system" id="gS0-Eh-e4w"/>
+                    <tabBarItem key="tabBarItem" title="People" image="person.3.fill" catalog="system" id="gS0-Eh-e4w"/>
                     <navigationItem key="navigationItem" id="1wh-ev-rqI"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
@@ -92,16 +92,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="S04-CB-yUN">
-                                <rect key="frame" x="25" y="411.5" width="364" height="78"/>
+                                <rect key="frame" x="50" y="131" width="314" height="78"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5af-cX-TUf">
-                                        <rect key="frame" x="0.0" y="0.0" width="364" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-4J-oEI">
-                                        <rect key="frame" x="0.0" y="57.5" width="364" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="57.5" width="314" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -112,10 +112,9 @@
                         <viewLayoutGuide key="safeArea" id="kzW-O5-gig"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="S04-CB-yUN" firstAttribute="centerX" secondItem="kzW-O5-gig" secondAttribute="centerX" id="4iO-xf-bJL"/>
-                            <constraint firstItem="S04-CB-yUN" firstAttribute="centerY" secondItem="kzW-O5-gig" secondAttribute="centerY" id="8Al-Cw-7FQ"/>
-                            <constraint firstItem="kzW-O5-gig" firstAttribute="trailing" secondItem="S04-CB-yUN" secondAttribute="trailing" constant="25" id="Bop-we-VuY"/>
-                            <constraint firstItem="S04-CB-yUN" firstAttribute="leading" secondItem="kzW-O5-gig" secondAttribute="leading" constant="25" id="mA6-cQ-nMf"/>
+                            <constraint firstItem="kzW-O5-gig" firstAttribute="trailing" secondItem="S04-CB-yUN" secondAttribute="trailing" constant="50" id="Tm9-3g-7Zr"/>
+                            <constraint firstItem="S04-CB-yUN" firstAttribute="top" secondItem="kzW-O5-gig" secondAttribute="top" constant="43" id="Tmm-Vr-htc"/>
+                            <constraint firstItem="S04-CB-yUN" firstAttribute="leading" secondItem="kzW-O5-gig" secondAttribute="leading" constant="50" id="vy1-Qg-5eN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="elZ-W2-OBo"/>
@@ -146,11 +145,11 @@
             </objects>
             <point key="canvasLocation" x="88" y="156"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Common table-->
         <scene sceneID="iJp-DE-VIl">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JMl-Cs-WOx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" image="tablecells" catalog="system" id="wfl-Fb-EHw"/>
+                    <tabBarItem key="tabBarItem" title="Common table" image="tablecells" catalog="system" id="wfl-Fb-EHw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3nV-kH-sAg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

@@ -15,7 +15,6 @@
 		868E06C228A8532E00309CEC /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E06C128A8532E00309CEC /* TableViewVC.swift */; };
 		868E06C528A8590500309CEC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E06C428A8590500309CEC /* Person.swift */; };
 		868E06C728A8FE9300309CEC /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E06C628A8FE9300309CEC /* TableVC.swift */; };
-		868E06C928A9739900309CEC /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E06C828A9739900309CEC /* MainTabBarVC.swift */; };
 		868E06CB28A9803300309CEC /* PersonalInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E06CA28A9803300309CEC /* PersonalInformationVC.swift */; };
 		868E06CD28A98AA100309CEC /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868E06CC28A98AA100309CEC /* Properties.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +30,6 @@
 		868E06C128A8532E00309CEC /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
 		868E06C428A8590500309CEC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		868E06C628A8FE9300309CEC /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
-		868E06C828A9739900309CEC /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
 		868E06CA28A9803300309CEC /* PersonalInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationVC.swift; sourceTree = "<group>"; };
 		868E06CC28A98AA100309CEC /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +86,6 @@
 		868E06BF28A7E21E00309CEC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				868E06C828A9739900309CEC /* MainTabBarVC.swift */,
 				868E06C628A8FE9300309CEC /* TableVC.swift */,
 				868E06C128A8532E00309CEC /* TableViewVC.swift */,
 				868E06CA28A9803300309CEC /* PersonalInformationVC.swift */,
@@ -188,7 +185,6 @@
 				868E06CD28A98AA100309CEC /* Properties.swift in Sources */,
 				868E06AB28A7E18800309CEC /* AppDelegate.swift in Sources */,
 				868E06CB28A9803300309CEC /* PersonalInformationVC.swift in Sources */,
-				868E06C928A9739900309CEC /* MainTabBarVC.swift in Sources */,
 				868E06AD28A7E18800309CEC /* SceneDelegate.swift in Sources */,
 				868E06C528A8590500309CEC /* Person.swift in Sources */,
 				868E06C728A8FE9300309CEC /* TableVC.swift in Sources */,

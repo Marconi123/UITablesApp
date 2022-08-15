@@ -7,35 +7,23 @@
 
 import UIKit
 
-class PersonalInformationVC: UIViewController {
-    
-    var person:Person?
+final class PersonalInformationVC: UIViewController {
+    var person: Person?
 
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var surnameLabel: UILabel!
-    
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var surnameLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-
     }
-    
+
     // MARK: - Functions
-    
-    func setupUI () {
+
+    func setupUI() {
         guard let person = person else { return }
-        nameLabel.text = person.name
-        surnameLabel.text = person.surname
+        nameLabel.text = "Name: \(person.name)"
+        surnameLabel.text = "Surname: \(person.surname)"
+        navigationItem.title = person.name + " " + person.surname
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
